@@ -1,0 +1,207 @@
+*{
+    /* border: solid red; */
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    padding: 0;
+    margin: 0; 
+
+}
+
+img{
+    padding: 0;
+    margin: 0;
+    height: 600px;
+    width: 100vh;
+    background-size: cover;
+    height: 700px;
+    width: 500px;
+}  
+
+ .right img{
+    background-size: cover;
+    
+ }
+
+.containe{
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    height: 700px;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5%;
+}
+
+.input h4{
+    color: pink;
+    margin-right: 45%;
+}
+
+.title h1{
+    color: white ;
+    padding: 0;
+    margin: 0;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    font-size: 40px;
+    height: 140px;
+}
+
+.left{
+    justify-content: center;
+    background-color: rgb(14, 60, 121);
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+    height: 700px;
+    width: 500px;
+    display: flex;
+}
+
+.control{
+   border: 1px solid #333;
+   border: none;
+   border-bottom: 1PX solid;
+   width: 60%;
+   padding-right: 0;
+   margin-bottom: 25px;
+   color: white;
+   background-color: rgb(14, 60, 121);
+   field-sizing: 20PX;
+   margin: 20px;
+}
+
+label{
+    color: white;
+}
+
+.icone{
+    height: 100px;
+    display: flex;
+    padding: 0;
+    margin-left: 10px;
+    width: 400px;
+    justify-content: left;
+    align-items: center;
+    text-align: right ; 
+}
+
+p{
+    color: white;
+    display: flex;
+    height: 50px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.btn{
+    display: flex;
+    gap: 30px;
+}
+
+.btn a{
+    color: black;
+    text-decoration: none;   
+    background: pink; 
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.paragraphe{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    width: 200px;
+    height: 100px;
+}
+
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    width: 110px;
+    height: 40px;
+    border-radius: 20px 20px;
+    gap: 10px;
+    color: black;
+}
+
+.button button{
+    background-color: pink;
+    color: #333 ;
+    text-align: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: 10px;
+    margin-top: 40px;
+    margin-left: 50px;
+    font-size: 17px;
+    cursor: pointer;
+    padding-left: 0;
+    border: none;
+    border: 1px solid pink;
+    width: 120px;
+    height: 60px;
+    border-radius: 10%;
+}
+
+.link a{
+    border: none;
+    color: white;
+    height: 200px;
+    text-decoration: none;
+    text-align: left;
+    justify-content: left;
+    align-items: left;
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+
+@media screen and (max-width: 928px) {
+    .containe{
+        display: block;   
+        max-width: 100%;
+    }
+
+    .icone{
+        display: block ;
+    }
+
+    p{
+       color: pink;
+       font-size: 18px;
+    }
+
+    .button button{
+        display: inline;
+        margin-top: 10%;
+        margin-left: 60%;
+    }
+
+    .link a{
+        margin-top: -10%;
+    }
+}
+
+
